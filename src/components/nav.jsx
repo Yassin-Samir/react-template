@@ -1,6 +1,7 @@
 import "../css/nav.css";
 import Logo from "../assets/logo-black.png";
 import { useRef, useState } from "react";
+import { Link } from "react-router-dom";
 function nav() {
   const ref = useRef(null);
   const first = useRef(null);
@@ -9,29 +10,29 @@ function nav() {
   return (
     <nav>
       <div className="nav" id="nav">
-        <a href="/">
+        <Link to="/">
           <img src={Logo} loading="lazy" />
-        </a>
+        </Link>
         <div className="center">
           <ul>
-            <a href="#">
+            <Link to="/">
               <li>Home</li>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/">
               <li>About Us</li>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/">
               <li>Services</li>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/">
               <li>Pages</li>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/">
               <li>Blog</li>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/">
               <li>Contact</li>
-            </a>
+            </Link>
           </ul>
         </div>
         <div className="end">
@@ -42,27 +43,27 @@ function nav() {
       <div className="mobile-nav" ref={ref}>
         <ul>
           <li>
-            <a href="/">
+            <Link to="/">
               <img src={Logo} alt="" />
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/"> Home</a>
+            <Link to="/"> Home</Link>
           </li>
           <li>
-            <a href="/"> About Us</a>
+            <Link to="/"> About Us</Link>
           </li>
           <li>
-            <a href="/"> Services</a>
+            <Link to="/"> Services</Link>
           </li>
           <li>
-            <a href="/"> Pages</a>
+            <Link to="/"> Pages</Link>
           </li>
           <li>
-            <a href="/"> Blog</a>
+            <Link to="/"> Blog</Link>
           </li>
           <li>
-            <a href="/"> Contact</a>
+            <Link to="/"> Contact</Link>
           </li>
           <li>
             <button>Login</button>
