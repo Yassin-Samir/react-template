@@ -1,0 +1,47 @@
+.section7 {
+  margin: 50px auto 0;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  background-color: rgb(251, 251, 251);
+}
+.rating {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-between;
+  padding: 20px 0;
+  max-width: 370px;
+  height: 80%;
+}
+
+.start,
+.name,
+.title {
+  width: 100%;
+  text-align: center;
+}
+.icon1 {
+  width: 20px;
+  height: 20px;
+}
+.under-starts {
+  line-height: 1.6;
+  text-align: center;
+  color: gray;
+  font-size: 0.8rem;
+}
+.profile {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.title {
+  font-weight: 500;
+}

@@ -1,0 +1,97 @@
+.section3 {
+  max-width: 980px;
+  margin: 55px auto 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+  place-items: center;
+}
+.section3 .main {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.section3 h1 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  width: 100%;
+  text-align: start;
+}
+.section3 h1,
+.body {
+  margin-bottom: 20px;
+}
+.body {
+  line-height: 1.6;
+  color: gray;
+}
+.first {
+  width: 100%;
+  height: 50px;
+  border-bottom-right-radius: 9px;
+  background-color: #eee;
+  cursor: pointer;
+  position: relative;
+  isolation: isolate;
+}
+.first::after {
+  content: "";
+  position: absolute;
+  width: 2%;
+  height: 100%;
+  background-image: linear-gradient(-135deg, #611bdd 0%, #5e87eb 100%);
+  transition: width 0.5s ease;
+  -webkit-transition: width 0.5s ease;
+  -moz-transition: width 0.5s ease;
+  -ms-transition: width 0.5s ease;
+  -o-transition: width 0.5s ease;
+  z-index: -1;
+}
+.first span {
+  font-size: 0.85rem;
+  height: fit-content;
+  width: 70%;
+  text-align: center;
+  color: black;
+  transform: translate(-60%, -50%);
+  -webkit-transform: translate(-60%, -50%);
+  -moz-transform: translate(-60%, -50%);
+  -ms-transform: translate(-60%, -50%);
+  -o-transform: translate(-60%, -50%);
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+}
+.first span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.first:hover span {
+  color: white;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.first:hover::after {
+  width: 100%;
+  border-bottom-right-radius: 9px;
+}
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+}

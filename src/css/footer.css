@@ -1,0 +1,14 @@
+.footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #eee;
+}
+.footer p {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.4rem;
+}

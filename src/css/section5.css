@@ -1,0 +1,29 @@
+.section5 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  background-color: #5e87eb;
+  background-image: url("../assets/banner-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  place-items: center;
+  color: white;
+  margin-top: 50px;
+}
+.section5 div {
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+  padding: 100px 0;
+}
+.section5 h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.section5 p {
+  font-weight: 700;
+}
