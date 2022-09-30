@@ -78,7 +78,7 @@ function nav() {
           if (!bool) {
             setbool(true);
             e.currentTarget.style.height = "5px";
-            e.currentTarget.style.transform = "rotate(80deg)";
+            e.currentTarget.style.transform = "rotate(80deg) translateY(-50%)";
             ref.current.style.transform = "translate(-50%,70px)";
             e.currentTarget.children[0].style.transform =
               "translate(-3px) rotate(235deg)";
