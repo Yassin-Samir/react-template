@@ -1,6 +1,6 @@
 import React from "react";
-import Section from "./components/section";
 import Nav from "./components/nav";
+import Section from "./components/section";
 import Section2 from "./components/section2";
 import Section3 from "./components/section3";
 import Section4 from "./components/section4";
