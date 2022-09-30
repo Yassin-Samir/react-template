@@ -34,4 +34,4 @@ function Section({ num, name }) {
     </div>
   );
 }
-export default section5;
+export default section6;

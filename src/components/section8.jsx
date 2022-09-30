@@ -76,4 +76,4 @@ function section8() {
     </div>
   );
 }
-export default section7;
+export default section8;

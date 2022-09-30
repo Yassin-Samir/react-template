@@ -14,4 +14,4 @@ function section9() {
     </div>
   );
 }
-export default section8;
+export default section9;

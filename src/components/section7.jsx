@@ -86,4 +86,4 @@ function Section12({ details, src, name }) {
     </div>
   );
 }
-export default section6;
+export default section7;
