@@ -46,7 +46,7 @@
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
 }
-.flex div:has(img) {
+.flex div:last-of-type {
   height: 80%;
   overflow: hidden;
   width: 250px;
