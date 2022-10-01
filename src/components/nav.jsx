@@ -87,7 +87,7 @@ function nav() {
               "translate(-3px,-5px) rotate(146deg)";
           } else {
             setbool(false);
-            e.currentTarget.style.height = "25px";
+            e.currentTarget.style.height = "";
             e.currentTarget.style.transform = "rotate(0) translateY(-50%)";
             ref.current.style.transform = "";
             e.currentTarget.children[1].style.display = "";
