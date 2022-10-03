@@ -4,9 +4,7 @@ import { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 function nav() {
   const ref = useRef(null);
-  const first = useRef(null);
-  const ref2 = useRef(null);
-  const [bool, setbool] = useState(false);
+  const [mobileView, setMobileView] = useState(false);
   return (
     <nav>
       <div className="nav" id="nav">
@@ -73,10 +71,9 @@ function nav() {
       </div>
       <span
         className="nav-btn"
-        ref={first}
         onClick={(e) => {
-          if (!bool) {
-            setbool(true);
+          if (!mobileView) {
+            setMobileView(true);
             e.currentTarget.style.height = "5px";
             e.currentTarget.style.transform = "rotate(80deg) translateY(-50%)";
             ref.current.style.transform = "translate(-50%,70px)";
@@ -86,13 +83,10 @@ function nav() {
             e.currentTarget.children[2].style.transform =
               "translate(-3px,-5px) rotate(146deg)";
           } else {
-            setbool(false);
-            e.currentTarget.style.height = "";
-            e.currentTarget.style.transform = "rotate(0) translateY(-50%)";
-            ref.current.style.transform = "";
-            e.currentTarget.children[1].style.display = "";
-            e.currentTarget.children[2].style.transform = "";
-            e.currentTarget.children[0].style.transform = "";
+            setMobileView(false);
+            e.currentTarget.style = "";
+            ref.current.style = "";
+            e.currentTarget.childNodes.forEach((i) => (i.style = ""));
           }
         }}
       >
