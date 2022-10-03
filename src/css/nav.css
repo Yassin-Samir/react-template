@@ -74,11 +74,11 @@ nav {
     display: none;
   }
   .mobile-nav {
-    transform: translate(-50%, -100vh);
-    -webkit-transform: translate(-50%, -100vh);
-    -moz-transform: translate(-50%, -100vh);
-    -ms-transform: translate(-50%, -100vh);
-    -o-transform: translate(-50%, -100vh);
+    transform: translate(-50%, -300vh);
+    -webkit-transform: translate(-50%, -300vh);
+    -moz-transform: translate(-50%, -300vh);
+    -ms-transform: translate(-50%, -300vh);
+    -o-transform: translate(-50%, -300vh);
     width: 80%;
     left: 50%;
     margin-top: -15px;
