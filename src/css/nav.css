@@ -69,7 +69,7 @@ nav {
     background-color: #0062cc;
   }
 }
-@media (min-width: 0) and (max-width: 740px) {
+@media (min-width: 0) and (max-width: 780px) {
   .nav {
     display: none;
   }
@@ -150,7 +150,7 @@ nav {
     background-color: gray;
   }
 }
-@media (min-width: 741px) {
+@media (min-width: 781px) {
   .nav-btn {
     display: none;
   }
